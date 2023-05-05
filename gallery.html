@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="images/favicon.ico" type="images/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/gallery.css">
+
+    <title>Gallery</title>
+</head>
+<body>
+    <header>
+        <h2>Gallery</h2>
+        <button id="displayMenu" data-visible="false"></button>
+        <nav id="navigation" data-visible="false">
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="rakuindex.html">Raku</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Photo Grid -->
+        <div class="row"> 
+            <div class="column">
+                <img src="images/image3.jpeg" style="width:100%">
+                <img src="images/image4.jpeg" style="width:100%">
+            </div>
+                
+            <div class="column">
+                <img src="images/image2.jpeg" style="width:100%">
+                <img src="images/image5.jpeg" style="width:100%">
+            </div> 
+            
+            <div class="column">
+                <img src="images/image6.jpeg" style="width:100%">
+                <img src="images/image7.jpeg" style="width:100%">
+            </div>
+            
+            <div class="column">
+                <img src="images/image8.jpeg" style="width:100%">
+                <img src="images/image10.jpeg" style="width:100%">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; <span id="copyright"></span> Mitchell Romani <a href = "mailto: mitchromani@gmail.com">(Email)</a></p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
